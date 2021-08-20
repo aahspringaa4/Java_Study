@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/num1"
+        android:layout_width="87dp"
+        android:layout_height="87dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:background="@android:color/darker_gray"
+        android:text="1"
+        android:textColor="@color/black"
+        android:textSize="23dp"
+        app:backgroundTint="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/num2" />
+
+    <Button
+        android:id="@+id/num2"
+        android:layout_width="87dp"
+        android:layout_height="87dp"
+        android:layout_marginBottom="12dp"
+        android:background="@android:color/darker_gray"
+        android:text="2"
+        android:textColor="@color/black"
+        android:textSize="23dp"
+        app:backgroundTint="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/num5"
+        app:layout_constraintEnd_toStartOf="@+id/num3"
+        app:layout_constraintHorizontal_bias="0.485"
+        app:layout_constraintStart_toEndOf="@+id/num1" />
+
+    <Button
+        android:id="@+id/num3"
+        android:layout_width="87dp"
+        android:layout_height="87dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginRight="36dp"
+        android:layout_marginBottom="12dp"
+        android:background="@android:color/darker_gray"
+        android:text="3"
+        android:textColor="@color/black"
+        android:textSize="23dp"
+        app:backgroundTint="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/num6"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/num4"
+        android:layout_width="87dp"
+        android:layout_height="87dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginBottom="24dp"
+        android:background="@android:color/darker_gray"
+        android:text="4"
+        android:textColor="@color/black"
+        android:textSize="23dp"
+        app:backgroundTint="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/num7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/num5"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/num5"
+        android:layout_width="87dp"
+        android:layout_height="87dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginBottom="12dp"
+        android:background="@android:color/darker_gray"
+        android:text="5"
+        android:textColor="@color/black"
+        android:textSize="23dp"
+        app:backgroundTint="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/num8"
+        app:layout_constraintEnd_toStartOf="@+id/num6"
+        app:layout_constraintHorizontal_bias="0.423"
+        app:layout_constraintStart_toEndOf="@+id/num4" />
+
+    <Button
+        android:id="@+id/num6"
+        android:layout_width="87dp"
+        android:layout_height="87dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginRight="36dp"
+        android:layout_marginBottom="24dp"
+        android:background="@android:color/darker_gray"
+        android:text="6"
+        android:textColor="@color/black"
+        android:textSize="23dp"
+        app:backgroundTint="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/num9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/num5"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/num7"
+        android:layout_width="87dp"
+        android:layout_height="87dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginBottom="16dp"
+        android:background="@android:color/darker_gray"
+        android:text="7"
+        android:textColor="@color/black"
+        android:textSize="23dp"
+        app:backgroundTint="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/plus"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/num8"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/num8"
+        android:layout_width="87dp"
+        android:layout_height="87dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginBottom="64dp"
+        android:background="@android:color/darker_gray"
+        android:text="8"
+        android:textColor="@color/black"
+        android:textSize="23dp"
+        app:backgroundTint="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/clear"
+        app:layout_constraintEnd_toStartOf="@+id/num9"
+        app:layout_constraintStart_toEndOf="@+id/num7"
+        app:layout_constraintTop_toTopOf="@+id/num9"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/num9"
+        android:layout_width="87dp"
+        android:layout_height="87dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="16dp"
+        android:background="@android:color/darker_gray"
+        android:text="9"
+        android:textColor="@color/black"
+        android:textSize="23dp"
+        app:backgroundTint="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/minus"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/num0"
+        android:layout_width="87dp"
+        android:layout_height="87dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginRight="36dp"
+        android:background="@android:color/darker_gray"
+        android:text="0"
+        android:textColor="@color/black"
+        android:textSize="23dp"
+        app:backgroundTint="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Multi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginBottom="10dp"
+        android:text="곱하기"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        app:backgroundTint="@android:color/darker_gray"
+        app:layout_constraintBottom_toTopOf="@+id/result"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/divi"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/divi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="52dp"
+        android:layout_marginRight="52dp"
+        android:layout_marginBottom="8dp"
+        android:text="나누기"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        app:backgroundTint="@android:color/darker_gray"
+        app:layout_constraintBottom_toTopOf="@+id/result"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/plus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginBottom="48dp"
+        android:text="더하기"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        app:backgroundTint="@android:color/darker_gray"
+        app:layout_constraintBottom_toTopOf="@+id/Multi"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/minus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="52dp"
+        android:layout_marginRight="52dp"
+        android:layout_marginBottom="65dp"
+        android:text="빼기"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        app:backgroundTint="@android:color/darker_gray"
+        app:layout_constraintBottom_toTopOf="@+id/divi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/plus"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/scan1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="숫자를 입력해주세요."
+        android:inputType="textPersonName"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="@+id/scan2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/scan2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:hint="숫자를 입력해주세요"
+        android:inputType="textPersonName"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/num0" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="176dp"
+        android:layout_marginLeft="176dp"
+        android:layout_marginEnd="177dp"
+        android:layout_marginRight="177dp"
+        android:layout_marginBottom="44dp"
+        android:text=""
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/clear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="56dp"
+        android:text="Clear"
+        android:textColor="@android:color/black"
+        app:backgroundTint="@android:color/darker_gray"
+        app:layout_constraintBottom_toTopOf="@+id/result"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
